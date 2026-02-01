@@ -1,4 +1,15 @@
 
+// Fix: Use Process interface augmentation to match existing global type definitions
+declare global {
+  interface ProcessEnv {
+    API_KEY: string;
+  }
+  interface Process {
+    env: ProcessEnv;
+  }
+  var process: Process;
+}
+
 export enum AppView {
   DASHBOARD = 'dashboard',
   JOURNAL = 'journal',
