@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Faceworldd",
+  "description": "A private astrological growth sanctuary. Features personalized AI journaling, a real-time voice growth coach, and a generative vision board, all tailored to your unique natal birth chart and zodiac sign.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
